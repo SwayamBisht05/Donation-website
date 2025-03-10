@@ -1,0 +1,34 @@
+ <!-- Registration Page HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Registration</title>
+    <link rel="stylesheet" href="p&r.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm">
+            <h2> Create your account</h2>
+            <div id="registrationMessage" class="message"></div>
+            <input type="fullname" id="fullname" placeholder="Full name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="phone" id="phone" placeholder="Phone number" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="password" placeholder="Confirm Password" required>
+            <select id="donationType" required>
+                <option value="">Select Donation Type</option>
+                <option value="oneTime">One-time Donation</option>
+                <option value="monthly">Monthly Donation</option>
+                <option value="yearly">Yearly Donation</option>
+            </select>
+            <button type="submit"><a href="index.html">Sign up</a></button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

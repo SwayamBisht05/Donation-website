@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background: url("4.jpg") no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    font-size: 20px;
+}
+.face{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.face a {
+    color: white;
+    text-decoration: none;
+    padding:5px;
+    margin : 10px;
+    border: 30px;
+}
+.face a:hover {
+    background-color: black;
+    border-radius: 50px;
+}
+#change{
+    padding-right: 10px;
+    font-size: 10px;
+}
+#change a {
+    color: white;
+    text-decoration: none;
+    padding:5px;
+    margin : 10px;
+    border: 30px;
+}
+#change a:hover {
+    background-color: black;
+    border-radius: 50px;
+}
+header {
+    color: white;
+    text-align: center;
+    padding: 100px 20px; 
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+header .id{
+    background-color: black;
+    cursor:pointer;
+    color:black;
+    font-weight:bold; 
+    border-radius:40px;
+}
+button {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+.id a{
+   color: white;
+   width: 100px;
+   text-decoration: none;
+   background-color: black;
+} 
+ /* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background-color: #f4f4f4; */
+    color: #333;
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+
+/* Header Section */
+header {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+
+header p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Call to Action Section */
+.content {
+    /* background-color: #fff; */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.content .btn {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.content .btn:hover {
+    background-color: #007BFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Donation Info Section */
+.info {
+
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Container for responsive layout */
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .cta h2 {
+        font-size: 2rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+
+    .info h2 {
+        font-size: 2rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}

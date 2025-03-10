@@ -1,0 +1,121 @@
+ /* CSS Styles */
+
+ body{
+    display:flex;
+    background-image: url(2.jpg);
+    background-size: cover;
+ }
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+input ,select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    font-size: 16px;
+    background: transparent;
+}
+input ,select input::placeholder{
+    color:black;
+}
+.card-details {
+    display: flex;
+    gap: 10px;
+}
+.card-details input {
+    width: 50%;
+}
+
+button {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007BFF;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+.message.success {
+    display: block;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.message.error {
+    display: block;
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+.user-details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.user-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.amount-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.amount-btn {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.amount-btn.selected {
+    background-color: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+#custom-amount {
+    text-align: center;
+}
+input::placeholder {
+    color: black;
+  }

@@ -1,0 +1,40 @@
+<!-- Payment Page HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Payment</title>
+    <link rel="stylesheet" href="p&r.css">
+</head>
+<body>
+    <div class="container">
+        <form id="paymentForm">
+            <h2>Make Your Donation</h2>
+            <div id="paymentMessage" class="message"></div>
+            <div class="user-details">
+                <p id="userFullName"></p>
+                <p id="userEmail"></p>
+                <p id="donationTypeDisplay"></p>
+            </div>
+            <div class="donation-amount">
+                <h3>Select Donation Amount</h3>
+                <div class="amount-buttons">
+                    <button type="button" class="amount-btn" data-amount="1000">₹1000</button>
+                    <button type="button" class="amount-btn" data-amount="2000">₹2000</button>
+                    <button type="button" class="amount-btn" data-amount="5000">₹5000</button>
+                    <button type="button" class="amount-btn" data-amount="10000">₹10000</button>
+                </div>
+                <input type="number" id="custom-amount" placeholder="Custom Amount" min="1">
+            </div>
+            <input type="text" id="card-name" placeholder="Name on Card" required>
+            <input type="text" id="card-number" placeholder="Card Number" required>
+            <div class="card-details">
+                <input type="text" id="expiry" placeholder="MM/YY" required>
+                <input type="text" id="cvv" placeholder="CVV" required>
+            </div>
+            <button type="submit">Complete Donation</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+```

@@ -1,2 +1,2 @@
-# Donation-website
-project
+# min_project
+Donation project
